@@ -58,7 +58,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">#ChennaiRains Resource Center</a>
+                <a class="navbar-brand" href="index.html">#CuddaloreRains Resource Center</a>
             </div>
             <!-- /.navbar-header -->
             <ul class="nav navbar-nav navbar-left">
@@ -170,7 +170,7 @@
     }
 
     $(document).ready(function() {
-      $.getJSON("http://chennairains.org/api/aid-available.json", function(data) {
+      $.getJSON("../api/aid-available.json", function(data) {
         dataSet = data;
         $('#loading').hide();
         var dataTable = $('#dataTables-example').DataTable( {
